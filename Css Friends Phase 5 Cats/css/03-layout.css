@@ -1,0 +1,59 @@
+/* PHASE 3: Layout */
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  background: #fff;
+  width: 900px;
+  border: 1px solid #ccc;
+  border-top: 0;
+}
+
+.content-sidebar {
+  width: 200px;
+  min-height: 200px;
+  padding: 20px;
+  padding-right: 19px;
+  border-right: 1px solid #ccc;
+}
+
+.content-main {
+  width: 620px;
+  min-height: 200px;
+  padding: 20px;
+}
+
+.content-header {
+  height: 200px;
+  width: 100%;
+
+  position: relative;
+  background-size: cover;
+  background-image: url("../images/cats.jpg" )
+}
+
+.content-header-header {
+  position: absolute;
+  bottom: 20px;
+  left: 240px;
+  color: white;
+  font-size: 50px;
+  text-shadow: #FC0 1px 0 10px;
+}
+
+.content-header > button {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  background-color: #4CAF50; /* Green */
+  border: black;
+border-width: thick;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+}
